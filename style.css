@@ -1,0 +1,80 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+.section-1{
+ height: 100vh;   
+ background-image: url(./images/img.png); 
+ background-repeat: no-repeat;  
+ background-size: cover;
+ background-position: center;
+}
+a{
+    color: white !important;
+    justify-content: space-between;
+}
+.banner p{
+    font-size: 15px;
+    color: lightslategray;
+}
+.banner input{
+    background-color: lightslategray;
+    outline: none;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    color: white;
+    width: 300px;
+    margin: auto;
+    padding-right: 50px;
+}
+.banner input::placeholder{
+color: white;
+}
+.herosearch{
+    position: relative;
+}
+.searchicon{
+    background-color: #E58411;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 40%;
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    color: white;
+}
+.bag{
+    color: white;
+}
+button{
+    color: #E58411;
+    border: none;
+    outline: none;
+}
+.bag{
+    color: white;
+}
+.active{
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+    padding: 1;
+    margin: 1;
+}
+.left-arrow , .right-arrow{
+background-color: white;
+width: fit-content;
+font-size: 20px;
+padding: 12px;
+border-radius: 40%;
+}
+.product{
+    position: relative;
+}
+.left-arrow{
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    transform: translateY(-50%);
+    left: 42px;
+}
